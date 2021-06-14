@@ -69,12 +69,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderlineConverter\Implementations\Item.cs" />
-    <Compile Include="OrderlineConverter\Implementations\ItemMapper.cs" />
-    <Compile Include="OrderlineConverter\Implementations\StringToItemsConverter.cs" />
-    <Compile Include="OrderlineConverter\Interfaces\IConvertStringToItems.cs" />
-    <Compile Include="OrderlineConverter\Interfaces\IItem.cs" />
-    <Compile Include="OrderlineConverter\Interfaces\IItemMapper.cs" />
+    <Compile Include="Converter\Implementations\Item.cs" />
+    <Compile Include="Converter\Implementations\ItemMapper.cs" />
+    <Compile Include="Converter\Implementations\StringToItemsConverter.cs" />
+    <Compile Include="Converter\Interfaces\IConvertStringToItems.cs" />
+    <Compile Include="Converter\Interfaces\IItem.cs" />
+    <Compile Include="Converter\Interfaces\IItemMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
