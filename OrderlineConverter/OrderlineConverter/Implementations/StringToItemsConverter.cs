@@ -146,7 +146,7 @@ namespace OrderlineConverter.OrderlineConverter.Implementations
             {
                 try
                 {
-                    string result = strTabs[i];
+                    string result = strTabs[coords[i]];
                 }
                 catch (IndexOutOfRangeException e)
                 {
