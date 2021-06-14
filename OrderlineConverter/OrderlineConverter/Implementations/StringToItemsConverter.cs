@@ -41,7 +41,7 @@ namespace OrderlineConverter.OrderlineConverter.Implementations
             orderLineCounter = 0;
             for (int i = 0; i < strLines.Length; i++)
             {
-                string[] strTabs = strLines[i].Split(',');
+                string[] strTabs = strLines[i].Split('\t');
                 if (strTabs.Length >= coords.Length && IsCoordsOutOfBounds(strTabs, coords) == false)
                 {
                     if (ItemMapper.AddItem(CreateItem(strTabs, coords)))
