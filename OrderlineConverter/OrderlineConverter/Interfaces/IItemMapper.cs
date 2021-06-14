@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OrderlineConverter.OrderlineConverter.Interfaces
+namespace OrderlineConverter.Converter.Interfaces
 {
     public interface IItemMapper
     {

@@ -1,8 +1,8 @@
-﻿using OrderlineConverter.OrderlineConverter.Interfaces;
+﻿using OrderlineConverter.Converter.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OrderlineConverter.OrderlineConverter.Implementations
+namespace OrderlineConverter.Converter.Implementations
 {
     public class ItemMapper : IItemMapper
     {

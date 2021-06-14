@@ -1,8 +1,8 @@
-﻿using OrderlineConverter.OrderlineConverter.Interfaces;
+﻿using OrderlineConverter.Converter.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace OrderlineConverter.OrderlineConverter.Implementations
+namespace OrderlineConverter.Converter.Implementations
 {
     public class StringToItemsConverter : IConvertStringToItems
     {
