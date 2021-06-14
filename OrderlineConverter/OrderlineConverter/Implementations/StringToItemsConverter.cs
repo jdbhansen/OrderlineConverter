@@ -74,7 +74,6 @@ namespace OrderlineConverter.OrderlineConverter.Implementations
         {
             if (IsStringAnInt(idStr) && DoesStringContainDotOrComma(qtyStr))
             {
-
                 string qtyWithoutCommaOrDot = RemoveDotOrComma(qtyStr);
                 if (IsStringAnInt(qtyWithoutCommaOrDot))
                 {
